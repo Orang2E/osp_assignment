@@ -1,0 +1,60 @@
+.container {
+  text-align: center;
+}
+
+.big-box {
+  background-color: #B9B9B9;
+  width: 268.02px; /* 가로 크기 변경 */
+  height: 447px; /* 세로 크기 변경 */
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.box1, .box2, .box3 {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+
+.box1 {
+  background-color: #B9B9B9;
+  width: 175px;
+  height: 17px;
+  color: #46A1BB; /* 글자 색상을 #46A1BB로 설정 */
+}
+
+
+.box2 {
+  background-color: #B9B9B9;
+  width: 175px;
+  height: 17px;
+  color: #000000; /* 글자 색상을 #46A1BB로 설정 */
+}
+
+
+
+.box3 {
+  background-color: #B9B9B9;
+  width: 175px;
+  height: 17px;
+  color: #000000; /* 글자 색상을 #46A1BB로 설정 */
+}
+
+.big-cylinder {
+  background-color: #00664F;
+  width: 200px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.left-align {
+  float: left;
+  text-align: left;
+}
+
+.right-align {
+  float: right;
+  text-align: right;
+}
