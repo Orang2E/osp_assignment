@@ -1,0 +1,248 @@
+.submit-section {
+  position: absolute;
+  right: 280px;
+  float: right;
+  display: flex;
+  width: 124.225px;
+  height: 32.251px;
+  padding: 2.389px 7.167px;
+  justify-content: center;
+  align-items: center;
+  gap: 23.889px;
+  flex-shrink: 0;
+}
+
+#button1 {
+  background-color: #f5f5f5;
+  color: #5bab93;
+  border-color: #f5f5f5;
+  display: flex;
+  width: 124.225px;
+  height: 32.251px;
+  padding: 2.389px 7.167px;
+  justify-content: center;
+  align-items: center;
+  gap: 23.889px;
+  flex-shrink: 0;
+  border-radius: 4.778px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+}
+
+#button2 {
+  background-color: #5bab93;
+  border-color: #5bab93;
+  color: #f5f5f5;
+  display: flex;
+  width: 124.225px;
+  height: 32.251px;
+  padding: 2.389px 7.167px;
+  justify-content: center;
+  align-items: center;
+  gap: 23.889px;
+  flex-shrink: 0;
+  border-radius: 4.778px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+}
+
+#title1 {
+  width: 196px;
+  height: 43px;
+  color: #000;
+  font-family: Pretendard Variable;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.tabs div:hover {
+  border-bottom: 3px solid #5bab93;
+}
+
+.tabs {
+  display: inline;
+  float: left;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.tab {
+  display: inline;
+  float: left;
+  color: #000;
+  text-align: center;
+  font-family: Pretendard Variable;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+  padding: 8px;
+}
+
+.review-write {
+  width: 1920px;
+  height: 884px;
+  margin-top: 70px;
+  margin-bottom: 340px;
+  background-color: #f5f5f5;
+}
+
+.form-section {
+  font-family: Pretendard Variable;
+  font-style: normal;
+  color: #000;
+  width: 1600px;
+  height: 800px;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+#fs1 {
+  width: 74px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 70px;
+}
+
+#fs2 {
+  width: 396px;
+  height: 19px;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+#fs3 {
+  width: 74px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+#fs4 {
+  width: 315px;
+  height: 38px;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 100px;
+}
+
+#fs5 {
+  width: 74px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+#fs6 {
+  width: 92px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+#fs7 {
+  width: 179px;
+  height: 19px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#fs8 {
+  position: absolute;
+  right: 650px;
+  top: 350px;
+  float: right;
+  text-align: justify;
+  width: 312px;
+  height: 50px;
+}
+
+#fs9 {
+  position: absolute;
+  right: 214px;
+  top: 438px;
+  float: right;
+  text-align: justify;
+  width: 744px;
+  height: 146px;
+}
+
+#fs10 {
+  position: absolute;
+  right: 215px;
+  top: 572px;
+  color: #000;
+  font-family: Pretendard Variable;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#fs11 {
+  position: absolute;
+  right: 795px;
+  top: 690px;
+  float: right;
+  text-align: justify;
+  width: 169px;
+  height: 44px;
+  color: #000;
+  display: inline-flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  font-weight: 700px;
+  font-size: 15px;
+}
+
+#fs12 {
+  position: absolute;
+  right: 650px;
+  top: 810px;
+  float: right;
+  text-align: justify;
+  width: 312px;
+  height: 50px;
+  flex-shrink: 0;
+  border: 1px solid #b9b9b9;
+  background: #fff;
+}
+
+footer {
+  position: absolute;
+  left: 50px;
+  bottom: -270px;
+  color: #000;
+
+  text-align: center;
+  font-family: Pretendard Variable;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#backicon {
+  position: absolute;
+  left: 110px;
+  top: 40px;
+}
