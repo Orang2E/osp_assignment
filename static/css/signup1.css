@@ -80,6 +80,18 @@
   height: 39px;
   padding: 10px;
   font-size: 16px;
+  font-family: "Pretendard-Medium";
+  color: #b9b9b9;
+  text-decoration: none;
+  text-align: center;
+}
+
+#signup {
+  margin-top: 138px;
+  width: 76px;
+  height: 39px;
+  padding: 10px;
+  font-size: 16px;
   font-family: "Pretendard-Bold";
   color: #000;
   text-decoration: none;
@@ -89,39 +101,32 @@
   border-bottom-color: #5bab93;
 }
 
-#signup {
-  margin-top: 138px;
-  width: 76px;
-  height: 39px;
-  padding: 10px;
-  font-size: 16px;
-  font-family: "Pretendard-Medium";
-  color: #b9b9b9;
-  text-decoration: none;
-  text-align: center;
-}
-
-#login-form > label {
+#signup1-form > label {
   margin-left: 28px;
   height: 38px;
   padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Pretendard-Regular";
+}
+
+#signup1-form > div > label {
+  margin-left: 28px;
+  margin-top: 10px;
+  width: 59px;
+  height: 38px;
+  padding: 0px;
   text-align: left;
   font-size: 15px;
   font-family: "Pretendard-Regular";
-  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#login-form > label[id="id"] {
-  margin-top: 30px;
-  width: 59px;
-}
-
-#login-form > label[id="password"] {
-  width: 72px;
-}
-
-#login-form > input {
+#signup1-form > input {
   height: 38px;
+  margin-top: 6.5px;
   padding: 10px;
   font-size: 15px;
   font-family: "Pretendard-Regular";
@@ -129,16 +134,56 @@
   background-color: #fff;
 }
 
-#login-form > input[name="id"] {
-  width: 107px;
-  margin-left: 28px;
+#signup1-form > input[name="name"] {
+  width: 130px;
+  margin-left: 53px;
   margin-top: 30px;
 }
 
-#login-form > input[name="password"] {
+#signup1-form > div > input {
+  margin-left: 44px;
+  margin-top: 0px;
+  width: 114px;
+  height: 38px;
+  padding: 10px;
+  text-align: left;
+  font-size: 15px;
+  font-family: "Pretendard-Regular";
+}
+
+#signup1-form > input[name="phone"] {
+  width: 190px;
+  margin-left: 26px;
+  margin-top: 7.5px;
+}
+
+#signup1-form > input[name="id"] {
+  width: 107px;
+  margin-left: 39px;
+  margin-top: 7.5px;
+}
+
+#signup1-form > input[name="password1"] {
   width: 116px;
-  margin-left: 15px;
-  margin-top: 9px;
+  margin-left: 26px;
+  margin-top: 7.5px;
+}
+
+#signup1-form > input[name="password2"] {
+  width: 156px;
+  margin-left: -4px;
+  margin-top: 7.5px;
+}
+
+.emailrow {
+  display: flex;
+  flex-direction: row;
+}
+
+#ewhain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 hr {
@@ -149,33 +194,25 @@ hr {
   border: 0;
 }
 
-.findpw {
+.stepcircle {
   display: flex;
   flex-direction: row;
-  height: 17px;
-  padding: 10px;
-  margin-top: 18px;
-  text-align: left;
-  font-size: 14px;
-  font-family: "Pretendard-Regular";
+  margin-top: 16.5px;
 }
 
-#findpw1 {
-  margin-left: 27px;
-  width: 144px;
+#circle1 {
+  margin-left: 178px;
 }
 
-#findpw2 {
-  margin-left: 11px;
-  width: 77px;
-  color: #e27a6c;
+#circle2 {
+  margin-left: 9px;
 }
 
-#login-form > input[type="submit"] {
+#signup1-form > input[type="submit"] {
   width: 332px;
   height: 43px;
   margin-left: 28px;
-  margin-top: 64px;
+  margin-top: 42px;
   border-radius: 10px;
   padding: 10px;
   background-color: #5bab93;
