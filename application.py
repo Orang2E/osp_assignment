@@ -1,48 +1,36 @@
-from flask import Flask, render_template, request
-application = Flask(__name__)
-
-@application.route("/")
-def hello():
-    return render_template("index.html")
-
-@application.route("/etc")
-def etc():
-    return render_template("etc.html")
-
-@application.route("/ewha")
-def ewha():
-    return render_template("ewha.html")
-
-@application.route("/fashion")
-def fashion():
-    return render_template("fashion.html")
-
-@application.route("/food")
-def food():
-    return render_template("food.html")
-
-@application.route("/home")
-def home():
-    return render_template("home.html")
-
-@application.route("/necessary")
-def necessary():
-    return render_template("necessary.html")
-
-@application.route("/pencil")
-def pencil():
-    return render_template("pencil.html")
+from flask import Flask, jsonify, render_template
 
 
+@app.route("/") #얘 주소로 가면 index.html 나오는 거
+def index():
+    return render_template('index.html')
 
-@application.route("/submit_item_post", methods=['POST'])
-def reg_item_submit_post2():
-    if request.method == 'POST':
-        image_file=request.files["file"]
-        image_file.save("static/images/{}".format(image_file.filename))
-        data=request.form
-        print(data)
-        return render_template("result.html", data=data, img_path="static/images/{}".format(image_file.filename))
+@app.route("/mypage") #얘 주소로 가면 index.html 나오는 거
+def mypage():
+    return render_template('mypage.html')
 
-if __name__ == "__main__":
- application.run(debug=True)
+@app.route("/product-add") 
+def productAdd():
+    return render_template('product_add.html')
+
+@app.route("/product-detail")
+def productDetail():
+    return render_template('product-detail.html')
+
+@app.route("/products-list")
+def productsList():
+    return render_template('products_list.html')
+
+@app.route("/review-add") 
+def reviewAdd():
+    return render_template('review_add.html')
+
+@app.route("/review-detail")
+def reviewDetail():
+    return render_template('review_detail.html')
+
+@app.route("/reviews-list")
+def reviewList():
+    return render_template('reviews_list.html')
+
+

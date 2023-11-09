@@ -1,2 +1,2 @@
-# osp_assignment
-과제 제출용 레포지토리
+# wishWith-FE
+공동구매 웹사이트 WishWith FE 레포지토리
