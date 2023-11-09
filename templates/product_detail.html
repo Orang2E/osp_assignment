@@ -2,7 +2,8 @@
   <head>
     <link rel="stylesheet" href="../static/css/product_detail.css" />
   </head>
-  <header></header>
+  <div id="header"></div>
+
   <body>
     <div class="adBox"></div>
     <div class="container">
@@ -52,4 +53,11 @@
     </div>
   </body>
   <footer></footer>
+  <script>
+    fetch("layout/header_before.html")
+      .then((response) => response.text())
+      .then((data) => {
+        document.getElementById("header").innerHTML = data;
+      });
+  </script>
 </html>

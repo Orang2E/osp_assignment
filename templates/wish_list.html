@@ -3,13 +3,6 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-      .header {
-        margin: 0px;
-        width: 100%;
-        height: 553px;
-        background: rgba(255, 252, 240, 1);
-      }
-
       body {
         width: 100vw;
         margin: 0;
@@ -429,7 +422,7 @@
   </head>
 
   <body>
-    <div class="header"></div>
+    <div id="header"></div>
     <!--헤더 삽입-->
 
     <div class="text-box1">
@@ -1289,4 +1282,11 @@
     <div class="footer"></div>
     <!--푸터 삽입-->
   </body>
+  <script>
+    fetch("layout/header_before.html")
+      .then((response) => response.text())
+      .then((data) => {
+        document.getElementById("header").innerHTML = data;
+      });
+  </script>
 </html>
