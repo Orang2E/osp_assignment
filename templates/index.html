@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../static/index.css" />
+    <!-- CSS 파일 연결 -->
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="home-title">wishwith</h1>
+      <div class="user-actions">
+        <button class="login-button">로그인</button>
+        <button class="signup-button">회원가입</button>
+      </div>
+      <ul class="navbar">
+        <li class="nav-item"><a href="/home">홈</a></li>
+        <li class="nav-item"><a href="/home">식료품</a></li>
+        <li class="nav-item"><a href="/necessary">생필품</a></li>
+        <li class="nav-item"><a href="/pencil">문구류</a></li>
+        <li class="nav-item"><a href="/fashion">패션잡화</a></li>
+        <li class="nav-item"><a href="/ewha">이화굿즈</a></li>
+        <li class="nav-item"><a href="/etc">기타</a></li>
+      </ul>
+    </div>
+
+    <form
+      action="/submit_item_post"
+      class="input-form"
+      enctype="multipart/form-data"
+      method="post"
+    >
+      <!-- 입력 폼 -->
+      <div class="input-group">
+        <label for="item">공구 품목:</label>
+        <input type="text" name="item" />
+      </div>
+      <div class="input-group">
+        <label for="time">공구 일정:</label>
+        <input type="text" name="time" />
+      </div>
+      <div class="input-group">
+        <label for="quantity">공구 수량:</label>
+        <input type="number" name="quantity" />
+      </div>
+      <div class="input-group">
+        <label for="number">공구 인원:</label>
+        <input type="number" name="number" />
+      </div>
+      <div class="input-group">
+        <label for="place">공구 장소:</label>
+        <input type="text" name="place" />
+      </div>
+      <div class="input-group">
+        <label for="description">공구 문구:</label>
+        <input type="text" name="description" />
+      </div>
+      <div class="input-group">
+        <label for="sub">세부 문구:</label>
+        <input type="text" name="sub" />
+      </div>
+      <div>
+        <label for="img">물품 이미지: </label>
+        <input type="file" name="file" /><br /><br />
+      </div>
+      <button class="save-button" type="submit">저장</button>
+    </form>
+  </body>
+</html>
